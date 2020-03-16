@@ -1,0 +1,62 @@
+.InputWrapp {
+  position: relative;
+}
+.checkbox_input {
+  display: inline-block;
+  padding-right: 5px;
+}
+.InvalidMessges {
+  color: red;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  vertical-align: baseline;
+  transform: translateY(-150%);
+  height: auto;
+  max-height: 50%;
+  min-width: 40%;
+  max-width: 60%;
+  outline: 1px solid red;
+  display: none;
+}
+.Show {
+  display: block;
+}
+.InvalidMeaages::after {
+  content: "  !";
+}
+.UploadRadio {
+  display: inline-block;
+}
+
+#UploadBtn,
+#BackBtn {
+  height: 100%;
+  width: 40%;
+  background-color: white;
+  border: none;
+  padding: 12px 16px;
+}
+.comment_div {
+  float: left;
+  padding: 5px 9px;
+  width: 90%;
+  margin-left: 3%;
+  border: 1px solid #e4e4e4;
+  margin-top: 10px;
+  background: #faf9f9;
+  background: -moz-linear-gradient(top, #faf9f9 0%, #f1eff2 100%);
+}
+
+.comment_txt {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding: 10px;
+  border: 1px solid #efeef1;
+  box-shadow: 0px 1px 1px #cac8c9;
+  text-indent: 24px;
+  background-color: #ffffff;
+  font-size: 15px;
+  color: #000000;
+}
